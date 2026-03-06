@@ -88,7 +88,10 @@ async fn claw_kill_node() -> Result<String, String> {
         // We look for node processes that have 'openclaw' in their command line
         let script = "Get-CimInstance Win32_Process -Filter \"name = 'node.exe' AND commandline LIKE '%openclaw%'\" | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }";
         cmd.args(&["-Command", script]);
+        
+        #[cfg(target_os = "windows")]
         cmd.creation_flags(0x08000000); // CREATE_NO_WINDOW
+        
         let _ = cmd.output(); 
         Ok("OpenClaw processes terminated".to_string())
     } else {
