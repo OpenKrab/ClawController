@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="./assets/claw-controller-icon.png" width="150" alt="ClawController Logo" />
   <h1>ClawController 🦞</h1>
   <p><strong>A Sleek, Lightweight Desktop Gateway Manager for OpenClaw.</strong></p>
 </div>
