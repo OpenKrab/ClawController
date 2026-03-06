@@ -17,14 +17,7 @@
 
 ---
 
-## � Project Structure
-
-![Project Structure](./assets/project-structure.png)
-*Visual breakdown of the repository, containing GitHub Actions, media assets, the main source code, and the pre-built executable.*
-
----
-
-## �🚀 Quick Download
+## Quick Download
 
 Head over to the [Releases tab](https://github.com/OpenKrab/ClawStart/releases) to download the latest precompiled `ClawController.exe` for Windows, `.dmg` for Mac, or `.AppImage` for Linux.
 
