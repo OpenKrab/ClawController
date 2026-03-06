@@ -2,8 +2,6 @@
   <img src="./assets/claw-controller-icon.png" width="150" alt="ClawController Logo" />
   <h1>ClawController 🦞</h1>
   <p><strong>A Sleek, Lightweight Desktop Gateway Manager for OpenClaw.</strong></p>
-
-  <img src="./assets/claw-controller-screenshot.png" width="600" alt="ClawController Preview" style="border-radius: 12px; margin-top: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
 </div>
 
 ---
@@ -39,13 +37,13 @@ cd ClawStart/claw-controller
 pnpm install
 ```
 
-3. **Run in Dev Mode**:
+1. **Run in Dev Mode**:
 
 ```bash
 pnpm tauri dev
 ```
 
-4. **Compile for your current OS**:
+1. **Compile for your current OS**:
 
 ```bash
 pnpm tauri build
@@ -53,4 +51,7 @@ pnpm tauri build
 
 ---
 
-<p align="center">Built with 🦞 by the OpenClaw Community • Tauri • React + Vite</p>
+<div align="center">
+  <img src="./assets/claw-controller-screenshot.png" width="600" alt="ClawController Preview" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+  <p>Built with 🦞 by the OpenClaw Community • Tauri • React + Vite</p>
+</div>
