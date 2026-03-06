@@ -30,6 +30,26 @@ Head over to the [Releases tab](https://github.com/OpenKrab/ClawStart/releases) 
 
 *Note: GitHub Actions automatically build the binary releases directly from source code on every new tag!*
 
+### 💻 Terminal Installation (Quick Start)
+
+**Windows (PowerShell):**
+
+```powershell
+$v="0.1.0"; $url="https://github.com/OpenKrab/ClawController/releases/download/v$v/ClawController_$($v)_x64-setup.exe"; $out="$HOME\Downloads\ClawController-Setup.exe"; Invoke-WebRequest -Uri $url -OutFile $out; Start-Process $out
+```
+
+**macOS (Terminal):**
+
+```bash
+v="0.1.0" && curl -L -o ~/Downloads/ClawController.dmg "https://github.com/OpenKrab/ClawController/releases/download/v$v/ClawController_${v}_universal.dmg" && open ~/Downloads/ClawController.dmg
+```
+
+**Linux (Terminal):**
+
+```bash
+v="0.1.0" && curl -L -o ~/ClawController.AppImage "https://github.com/OpenKrab/ClawController/releases/download/v$v/ClawController_${v}_amd64.AppImage" && chmod +x ~/ClawController.AppImage && ./~/ClawController.AppImage
+```
+
 ## 🛠️ For Developers
 
 If you want to tweak styles, add features or build from the source code locally yourself:
