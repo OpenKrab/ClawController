@@ -18,7 +18,14 @@
 
 ---
 
-## 🚀 Quick Download
+## � Project Structure
+
+![Project Structure](./assets/project-structure.png)
+*Visual breakdown of the repository, containing GitHub Actions, media assets, the main source code, and the pre-built executable.*
+
+---
+
+## �🚀 Quick Download
 
 Head over to the [Releases tab](https://github.com/OpenKrab/ClawStart/releases) to download the latest precompiled `ClawController.exe` for Windows, `.dmg` for Mac, or `.AppImage` for Linux.
 
@@ -53,5 +60,6 @@ pnpm tauri build
 
 <div align="center">
   <img src="./assets/claw-controller-screenshot.png" width="600" alt="ClawController Preview" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+  <p><strong>Application Preview:</strong> <em>ClawController running on Windows with an active gateway status.</em></p>
   <p>Built with 🦞 by the OpenClaw Community • Tauri • React + Vite</p>
 </div>
