@@ -1,7 +1,9 @@
 <div align="center">
-  <img src="./claw-controller/public/logo-claw-sq.png" width="150" alt="ClawController Logo" />
+  <img src="./assets/claw-controller-icon.png" width="150" alt="ClawController Logo" />
   <h1>ClawController 🦞</h1>
   <p><strong>A Sleek, Lightweight Desktop Gateway Manager for OpenClaw.</strong></p>
+
+  <img src="./assets/claw-controller-screenshot.png" width="600" alt="ClawController Preview" style="border-radius: 12px; margin-top: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
 </div>
 
 ---
@@ -9,9 +11,10 @@
 **ClawController** is a dedicated administration app designed to orchestrate your OpenClaw Gateway instances without having to dig through command lines. Designed for desktop, it serves as a lightweight system tray / widget companion built on native webviews using Tauri v2.
 
 ## ✨ Features
+
 - **Start/Stop UI:** Instant status visualizer to manage Node states.
 - **Smart Fix / Hard Reset ⚡:** Easily eradicate hanging or zombified node instances safely.
-- **Live Logs 📄:** Stream the raw event logs of your OpenClaw node seamlessly into an independent terminal window. 
+- **Live Logs 📄:** Stream the raw event logs of your OpenClaw node seamlessly into an independent terminal window.
 - **Doctor 🩺:** Run built-in diagnostic tools to check OpenClaw’s health.
 - **Cross-Platform:** Available and natively optimized for **Windows**, **macOS**, and **Linux**.
 
@@ -29,16 +32,21 @@ If you want to tweak styles, add features or build from the source code locally 
 
 1. **Prerequisites**: Ensure you have [Rust](https://rustup.rs/), [Node.js (v20+)](https://nodejs.org/), and [pnpm](https://pnpm.io/) fully installed on your machine.
 2. **Clone & Install**:
+
 ```bash
 git clone https://github.com/OpenKrab/ClawStart.git
 cd ClawStart/claw-controller
 pnpm install
 ```
+
 3. **Run in Dev Mode**:
+
 ```bash
 pnpm tauri dev
 ```
+
 4. **Compile for your current OS**:
+
 ```bash
 pnpm tauri build
 ```
