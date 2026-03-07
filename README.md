@@ -41,7 +41,7 @@ v="0.1.0" && curl -L -o ~/Downloads/ClawController.dmg "https://github.com/OpenK
 
 **Option 1: Auto-install (Recommended)**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/OpenKrab/ClawStart/main/install-linux.sh | bash
+curl -fsSL https://raw.githubusercontent.com/OpenKrab/ClawController/main/install-linux.sh | bash
 ```
 
 **Option 2: Manual Download**
