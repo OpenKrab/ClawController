@@ -22,8 +22,8 @@ fi
 
 echo "Detected architecture: ${ARCH_NAME}"
 
-# Download URL (adjust pattern as needed for your releases)
-APP_TAR_NAME="${APP_NAME}_${VERSION}_${ARCH}.app.tar.gz"
+# Download URL
+APP_TAR_NAME="${APP_NAME}_${VERSION}_universal.app.tar.gz"
 DOWNLOAD_URL="https://github.com/OpenKrab/ClawStart/releases/download/claw-controller-v${VERSION}/${APP_TAR_NAME}"
 
 echo "Downloading ${APP_TAR_NAME}..."
