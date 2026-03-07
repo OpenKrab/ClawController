@@ -57,9 +57,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           projectPath: "./claw-controller"
-          tagName: claw-controller-v__VERSION__
+          tagName: v__VERSION__
           releaseName: "ClawController v__VERSION__"
           releaseBody: "Cross-platform pre-compiled binaries for ClawController."
-          releaseDraft: true
+          releaseDraft: false
           prerelease: false
           args: ${{ matrix.platform == 'macos-latest' && '--target universal-apple-darwin' || '' }}
