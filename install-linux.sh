@@ -18,18 +18,14 @@ echo "🦞 Installing ClawController v${VERSION} for Linux..."
 echo "📦 Updating package lists..."
 sudo apt-get update
 
-# Install required dependencies (same as GitHub Actions)
+# Install required dependencies (Electron/Tauri AppImage)
 echo "🔧 Installing dependencies..."
 sudo apt-get install -y \
     libwebkit2gtk-4.1-dev \
     libappindicator3-dev \
     librsvg2-dev \
     patchelf \
-    libfontconfig1 \
     libgtk-3-0 \
-    libxss1 \
-    libgconf-2-4 \
-    libxtst6 \
     libnss3 \
     libasound2 \
     libdbus-1-3 \
@@ -39,21 +35,15 @@ sudo apt-get install -y \
     libxdamage1 \
     libxi6 \
     libxtst6 \
-    libgconf-2-4 \
-    libnss3 \
-    libasound2 \
     libatk1.0-0 \
-    libc6 \
+    libatk-bridge2.0-0 \
     libcairo-gobject2 \
     libcups2 \
-    libdbus-1-3 \
     libexpat1 \
     libfontconfig1 \
-    libgcc1 \
     libgconf-2-4 \
     libgdk-pixbuf2.0-0 \
     libglib2.0-0 \
-    libgtk-3-0 \
     libnspr4 \
     libpango-1.0-0 \
     libpangocairo-1.0-0 \
@@ -61,28 +51,13 @@ sudo apt-get install -y \
     libx11-6 \
     libx11-xcb1 \
     libxcb1 \
-    libxcomposite1 \
-    libxcursor1 \
-    libxdamage1 \
     libxext6 \
     libxfixes3 \
-    libxi6 \
-    libxrandr2 \
     libxrender1 \
     libxss1 \
-    libxtst6 \
     ca-certificates \
-    fonts-liberation \
-    libappindicator3-1 \
-    libasound2 \
-    libatk-bridge2.0-0 \
     libdrm2 \
-    libgbm1 \
-    libgtk-3-0 \
-    libnspr4 \
-    libnss3 \
-    libxss1 \
-    libxtst6
+    libgbm1
 
 # Download AppImage
 echo "⬇️  Downloading ClawController..."
