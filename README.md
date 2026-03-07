@@ -26,27 +26,18 @@ Head over to the [Releases tab](https://github.com/OpenKrab/ClawStart/releases) 
 ### 💻 Terminal Installation (Quick Start)
 
 **Windows (PowerShell):**
-
 ```powershell
-$v="0.1.0"; $url="https://github.com/OpenKrab/ClawStart/releases/download/v$v/ClawController_$($v)_x64-setup.exe"; $out="$HOME\Downloads\ClawController-Setup.exe"; Invoke-WebRequest -Uri $url -OutFile $out; Start-Process $out
+irm https://raw.githubusercontent.com/OpenKrab/ClawController/main/install-windows.ps1 | iex
 ```
 
 **macOS (Terminal):**
-
 ```bash
-v="0.1.0" && curl -L -o ~/Downloads/ClawController.dmg "https://github.com/OpenKrab/ClawStart/releases/download/v$v/ClawController_${v}_universal.dmg" && open ~/Downloads/ClawController.dmg
+curl -fsSL https://raw.githubusercontent.com/OpenKrab/ClawController/main/install-macos.sh | bash
 ```
 
 **Linux (Terminal):**
-
-**Option 1: Auto-install (Recommended)**
 ```bash
 curl -fsSL https://raw.githubusercontent.com/OpenKrab/ClawController/main/install-linux.sh | bash
-```
-
-**Option 2: Manual Download**
-```bash
-v="0.1.0" && curl -L -o ~/ClawController.AppImage "https://github.com/OpenKrab/ClawStart/releases/download/claw-controller-v$v/ClawController_${v}_amd64.AppImage" && chmod +x ~/ClawController.AppImage && ~/ClawController.AppImage
 ```
 
 ## 🛠️ For Developers
