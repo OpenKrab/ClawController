@@ -35,11 +35,6 @@ irm https://raw.githubusercontent.com/OpenKrab/ClawController/main/install-windo
 curl -fsSL https://raw.githubusercontent.com/OpenKrab/ClawController/main/install-macos.sh | bash
 ```
 
-**Linux (Terminal):**
-```bash
-curl -fsSL https://raw.githubusercontent.com/OpenKrab/ClawController/main/install-linux.sh | bash
-```
-
 ## 🛠️ For Developers
 
 If you want to tweak styles, add features or build from the source code locally yourself:
